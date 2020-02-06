@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Práctica Desarrollo Web Entorno Servidor MVC con Laravel
+
+Se desarrollará una aplicación web con el Framework Laravel teniendo la siguiente
+funcionalidad:
+- Accederá a dos tablas relacionadas 1:N: p.e., marcascoches-modelos, categoríasproductos, cursos-alumnos, etc.
+
+- El acceso a la misma se hará mediante Login. 
+
+- La tabla que participa con cardinalidad N tendrá una columna que permitirá almacenar
+una imagen. Esta columna será de tipo String y su valor apuntará a storage/app/public,
+lugar éste donde se ubicarán los archivos imagen.
+
+- Se realizará una pantalla de listado (vista) con la relación de todas las filas de la tabla
+que participa con cardinalidad 1. Por cada fila del listado existirá un botón o enlace, tal
+que cuando se haga clic en él, se mostrará un listado (otra vista) con todas las filas
+relacionadas de la tabla que participa con cardinalidad N.Se mostrará en la primera vista todas
+las categorías de la BD (informática, electrónica, hogar, etc.). Al hacer clic en categoría se 
+mostrará en otra vista todos los productos de dicha categoría.
+
+- Habrá pantallas (vistas) que permitan dar de alta, modificar o eliminar cualquier fila de la
+tabla que participa con cardinalidad N (en el ejemplo, un producto).
+
+- Todas las pantallas de la aplicación presentarán el usuario actualmente conectado.
+
+- Se incorporará, además, una opción de Salir o Cerrar Sesión. En cualquiera de estos dos casos, 
+se cerrará la sesión vigente y se redirigirá a la página de bienvenida o a la de login.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -29,49 +57,12 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
