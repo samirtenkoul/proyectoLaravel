@@ -22,7 +22,7 @@ lugar éste donde se ubicarán los archivos imagen.
 - Se realizará una pantalla de listado (vista) con la relación de todas las filas de la tabla
 que participa con cardinalidad 1. Por cada fila del listado existirá un botón o enlace, tal
 que cuando se haga clic en él, se mostrará un listado (otra vista) con todas las filas
-relacionadas de la tabla que participa con cardinalidad N.Se mostrará en la primera vista todas
+relacionadas de la tabla que participa con cardinalidad N. Se mostrará en la primera vista todas
 las categorías de la BD (informática, electrónica, hogar, etc.). Al hacer clic en categoría se 
 mostrará en otra vista todos los productos de dicha categoría.
 
